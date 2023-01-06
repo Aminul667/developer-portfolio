@@ -3,6 +3,20 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  height: 64px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+}
 /* header and navigation style */
 nav {
   display: flex;
@@ -11,8 +25,8 @@ nav {
 }
 
 nav ul {
-    display: flex;
-
+  display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -23,7 +37,28 @@ nav li {
   font-weight: 800;
   font-size: 45px;
 }
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
 
-.text-primary {
-  color: #fd6e0a;
+.banner-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.banner-subtitle {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
